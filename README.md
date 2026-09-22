@@ -7,13 +7,13 @@ The system tracks delivery services that manage fleets of vans, employ workers a
 
 ## What I built
 
-**EERD.** I modeled the entities, weak entities, and subclass/superclass relationships (an employee can be a worker or a driver) along with the multivalued and derived attributes needed to capture the scenario.
+**EERD.** Modeled the entities, weak entities, and subclass/superclass relationships (an employee can be a worker or a driver) along with the multivalued and derived attributes needed to capture the scenario.
 
-**Relational schema.** I converted the EERD into a set of normalized tables with primary keys, foreign keys, and discriminants where entities needed to be identified relative to another entity, like a van being identified relative to its service.
+**Relational schema.** Converted the EERD into a set of normalized tables with primary keys, foreign keys, and discriminants where entities needed to be identified relative to another entity, like a van being identified relative to its service.
 
-**Stored procedures.** I wrote 17 stored procedures that enforce the system's business rules, including things like preventing a driver from operating vans for two services at once, checking van capacity before loading a payload, and making sure a van only moves if it has enough fuel to reach its destination and get back to home base.
+**Stored procedures.** Wrote 17 stored procedures that enforce the system's business rules, including things like preventing a driver from operating vans for two services at once, checking van capacity before loading a payload, and making sure a van only moves if it has enough fuel to reach its destination and get back to home base.
 
-**Views.** I built 6 reporting views that aggregate data across the system, covering service revenue, van payloads, driver stats, and the total debt an owner has taken on based on the businesses they fund.
+**Views.** Built 6 reporting views that aggregate data across the system, covering service revenue, van payloads, driver stats, and the total debt an owner has taken on based on the businesses they fund.
 
 ## Stack
 
