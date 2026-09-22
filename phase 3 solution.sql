@@ -1,5 +1,3 @@
--- CS4400: Introduction to Database Systems (Summer 2025)
--- Project Phase III: Stored Procedures SHELL [v0] Wednesday, Jun 25, 2025
 set global transaction isolation level serializable;
 set global SQL_MODE = 'ANSI,TRADITIONAL';
 set names utf8mb4;
